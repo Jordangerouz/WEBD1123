@@ -1,0 +1,17 @@
+* {
+    padding:0;
+    margin: 0;
+}
+/*body {
+    background: rgb(32, 167, 197);
+}*/
+div{
+    width: 100vw;
+    height: 100vh;
+    background: rgb(84, 214, 243);
+}
+button#wave{ 
+    background-color: azure;
+    padding: 12px 48px;
+
+}
