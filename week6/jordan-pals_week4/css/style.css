@@ -10,13 +10,39 @@ font-family: 'Anton', sans-serif;
     margin:0;
     box-sizing: border-box;
 }
+nav {
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+#nav-li {
+    display: flex;
+    margin-left: 8em;
+}
+.nav-item {
+    color: white;
+    text-decoration: none;
+    padding: 0 1em;
+    cursor: pointer;
+    transition: all 200ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.nav-item:hover {
+    color: rgb(118, 221, 204);
+}
 .container {
     width: 100%;
     height: 100vh;
     background-color: rgb(118, 221, 204);
     display: flex;
     justify-content: center;
+}
+#container-home {
     align-items: center;
+}
+#container-form {
+    height: calc(100vh - 70px);
 }
 #container-section {
     width: 75%;
@@ -35,7 +61,7 @@ font-family: 'Anton', sans-serif;
     color: rgb(30, 83, 65);
 }
 .button {
-    margin: 2em auto 0 auto;
+    margin: 1em auto 0 auto;
     display: block;
     padding: 1em;
     font-family: 'Josefin Sans', sans-serif;
@@ -54,39 +80,54 @@ font-family: 'Anton', sans-serif;
 form {
     display: flex;
     flex-direction: column;
-    width: 300px;
+    width: 400px;
 }
 h1 {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 3em;
-    margin-bottom: 2em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
 }
 input {
     height: 40px;
     margin: 0.5em 0;
-    border: NONE;
+    border: none;
 }
-
+textarea {
+    height: 200px; 
+    margin-top: 0.5em; 
+    border: none;
+}
 label {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1.25em;
+    color: black;
 }
-input {
-    font-family: 'Josefin Sans', sans-serif;
+input, textarea {
+    /* font-family: 'Josefin Sans', sans-serif; */
+    font-family: 'IBM Plex Sans', sans-serif;
     font-size: 1em;
-    background-color: rgb(82, 200, 236)
-    
+    background-color: rgb(82, 200, 236);
+    transition: all 300ms linear;
+    letter-spacing: 1px;
+    padding-left: 1em;
 }
-input:focus {
+
+input:focus, textarea:focus {
     background-color: rgb(255, 255, 255);
 }
 .hidden {
     visibility: hidden;
 }
 .show {
-    
+    position: absolute;
+    height: 800px;
+    top: 3em;
+    background-color: white;
+    width: 450px;
+    visibility: visible;
+    border-radius: 1em;
 }
 textarea {
     display: flex;
-
 }

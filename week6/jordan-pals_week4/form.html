@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>week4</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=IBM+Plex+Sans:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav>
+      <ul id="nav-li">
+        <li><a href="index.html" class="nav-item">HOME</a></li>
+        <li><a href="form.html" class="nav-item">CONTACT</a></li>
+      </ul>
+    </nav>
+    <div id="container-form" class="container">
+      <form>
+        <h1 id="contact-h1">Contact Us</h1>
+        <label for="firstname">First Name:</label>
+        <input type="text" id="firstname">
+        <label for="lastname">Last Name:</label>
+        <input type="text" id="lastname" >
+        <label for="city">City:</label>
+        <input type="text" id="city">
+        <label for="state">State:</label>
+        <input type="text" id="state">
+        <label for="zipcode">Zip Code:</label>
+        <input type="text" id="zipcode">
+        <label for="email">Email:</label>
+        <input type="text" id="email">
+        <label for="message">Message:</label>
+        <textarea name="" id="message" cols="30" rows="100"></textarea>
+        <button class="button" id="button2" type="button">Submit</button>
+      </form>
+      <div id="form-content"></div>
+    </div>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>
