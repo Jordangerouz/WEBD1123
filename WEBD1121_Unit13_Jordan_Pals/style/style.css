@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+.container1 {
+    background-color: blanchedalmond;
+    height: 100vh;
+    width: 
+}
+
+.container2 {
+    background-color: rgb(255, 216, 157);
+    height: 100vh;
+    width: 
+}
+
+/*-----------------BOXES------------------------------*/
+
+.container3 {
+    display: flex;
+    justify-content:space-around;
+    
+    
+}
+
+#box1 {
+    background-color: aqua;
+    height: 300px;
+    width: 300px;
+    padding-top: 100px;
+}
+
+#box2 {
+    background-color: rgb(0, 179, 179);
+    height: 300px;
+    width: 300px;
+    padding: 40px;
+}
+
+#box3 {
+    background-color: rgb(1, 94, 94);
+    height: 300px;
+    width: 300px;
+}
