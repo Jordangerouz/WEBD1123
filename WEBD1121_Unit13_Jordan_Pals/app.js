@@ -18,7 +18,7 @@ gsap.to("#box2", {
 function anime() {
   $("#box2").animate(
     {
-      width: "70%",
+      width: "30%",
       opacity: 0.4,
       marginLeft: "0.6in",
       borderWidth: "10px",
@@ -28,8 +28,8 @@ function anime() {
 
   $("#box1").animate(
     {
-      width: "40%",
-      opacity: 0.4,
+      
+      opacity: 0.2,
       marginLeft: "0.6in",
       borderWidth: "10px",
     },
@@ -38,8 +38,8 @@ function anime() {
 
   $("#box3").animate(
     {
-      width: "40%",
-      opacity: 0.4,
+      
+      opacity: 0.6,
       marginLeft: "0.6in",
       borderWidth: "10px",
     },

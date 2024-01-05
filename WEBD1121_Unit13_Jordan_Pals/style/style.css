@@ -1,3 +1,9 @@
+/*
+font-family: 'Agbalumo', system-ui;
+font-family: 'Caveat', cursive;
+font-family: 'Open Sans', sans-serif;
+*/
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -6,6 +12,13 @@
 .container1 {
   background-color: blanchedalmond;
   height: 100vh;
+  padding-top: 200px;
+}
+
+h1, span {
+    font-family: 'Agbalumo', system-ui;
+    font-size: 15rem;
+    padding-left: 20%;
 }
 
 .container2 {
