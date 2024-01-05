@@ -1,0 +1,58 @@
+/*
+grey
+rgb(61, 61, 61); 
+
+blue
+rgb(75, 188, 253);
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.background {
+    background: url(../style/images/arcticfox1.jpg) no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 100px;
+    background-position: 0px -200px ;
+}
+
+.contentwrap {
+    height: 100vh;
+}
+
+#block1 {
+    height: 100px;
+    background-color: rgb(75, 188, 253);
+    
+}
+
+#contentbottom {
+    background-color:rgb(61, 61, 61) ;
+}
+
+header {
+    background-color:rgb(61, 61, 61) ;
+}
+
+footer {
+    background-color: rgb(75, 188, 253);
+}
+
+.bottomstuff {
+    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 200px;
+    
+}
+
+img .circlepic .jumpingpic {
+    max-width: 600px;
+    max-height: 500px;
+
+}
