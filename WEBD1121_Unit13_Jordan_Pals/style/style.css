@@ -35,6 +35,15 @@ h1, span {
   justify-content: space-around;
 }
 
+.word {
+  font-size: 3rem;
+  font-family: 'Agbalumo', system-ui;
+}
+
+#box1, #box2, #box3 {
+  
+}
+
 #box1 {
   background-color: aqua;
   height: 300px;
