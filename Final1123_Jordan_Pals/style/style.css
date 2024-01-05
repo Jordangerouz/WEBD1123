@@ -4,6 +4,10 @@ rgb(61, 61, 61);
 
 blue
 rgb(75, 188, 253);
+
+font-family: 'Agbalumo', system-ui;
+font-family: 'Caveat', cursive;
+font-family: 'Open Sans', sans-serif;
 */
 
 * {
@@ -76,7 +80,7 @@ button:hover {
     padding-top: 30px;
     padding-bottom: 20px;
     text-align: center;
-    height: 52em
+    height: 54em
 }
 
 header {
@@ -142,4 +146,19 @@ footer {
 }
 iframe {
     display: none;
+}
+
+h1 {
+    font-family: 'Agbalumo', system-ui;
+    font-size: 8em;
+}
+
+button {
+    font-family: 'Caveat', cursive;
+    font-size: 2em;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
 }
