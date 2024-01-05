@@ -11,6 +11,7 @@
  *
  * Date: 2016-06-09T18:02Z
  */
+gsap.registerPlugin(ScrollTrigger);
 ( function( global, factory ) {
 
 	"use strict";

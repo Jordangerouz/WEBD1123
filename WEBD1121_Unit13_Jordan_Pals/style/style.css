@@ -1,45 +1,43 @@
 * {
-    box-sizing: border-box;
-    
+  box-sizing: border-box;
+  margin: 0;
 }
 
 .container1 {
-    background-color: blanchedalmond;
-    height: 100vh;
-    width: 
+  background-color: blanchedalmond;
+  height: 100vh;
 }
 
 .container2 {
-    background-color: rgb(255, 216, 157);
-    height: 100vh;
-    width: 
+  background-color: rgb(255, 216, 157);
+  height: 100vh;
+  padding-top: 300px;
 }
 
 /*-----------------BOXES------------------------------*/
 
 .container3 {
-    display: flex;
-    justify-content:space-around;
-    
-    
+  /* background-color: rgb(194, 227, 255);*/
+  display: flex;
+  justify-content: space-around;
 }
 
 #box1 {
-    background-color: aqua;
-    height: 300px;
-    width: 300px;
-    padding-top: 100px;
+  background-color: aqua;
+  height: 300px;
+  width: 300px;
+  padding-top: 100px;
 }
 
 #box2 {
-    background-color: rgb(0, 179, 179);
-    height: 300px;
-    width: 300px;
-    padding: 40px;
+  background-color: rgb(0, 179, 179);
+  height: 300px;
+  width: 300px;
+  padding: 40px;
 }
 
 #box3 {
-    background-color: rgb(1, 94, 94);
-    height: 300px;
-    width: 300px;
+  background-color: rgb(1, 94, 94);
+  height: 300px;
+  width: 300px;
 }
