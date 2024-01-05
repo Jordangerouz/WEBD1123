@@ -20,7 +20,13 @@ rgb(75, 188, 253);
     padding-top: 100px;
     background-position: 0px -200px ;
 }
-
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(168, 168, 168);
+}
 .contentwrap {
     height: 100vh;
 }
@@ -28,19 +34,62 @@ rgb(75, 188, 253);
 #block1 {
     height: 100px;
     background-color: rgb(75, 188, 253);
+    padding-top: 12px;
+    text-align: center;
+}
+
+ul {
+    display: inline-flex;
+    list-style-type: none;
     
+}
+button {
+    color: black;
+    background-color:rgb(75, 188, 253) ;
+    border-radius: 5px;
+    height: 50px;
+    width: 800px;
+    margin-top: 13px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#but3, #but4 {
+    background-color: rgb(61, 61, 61);
+    color: rgb(75, 188, 253);
+    margin-left: 25px;
+    margin-right: 70px;
+}
+
+#but3:hover, #but4:hover {
+    color: white;
+}
+
+
+button:hover {
+    opacity: 0.5;
+    color: white;
 }
 
 #contentbottom {
     background-color:rgb(61, 61, 61) ;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: center;
 }
 
 header {
     background-color:rgb(61, 61, 61) ;
+    height: 75px;
+    text-decoration: none;
+    text-align: center;
 }
 
 footer {
     background-color: rgb(75, 188, 253);
+    height: 50px;
+    text-align: end;
+
 }
 
 .bottomstuff {
@@ -48,11 +97,34 @@ footer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 200px;
+    padding-left: 100px;
+    padding-right: 100px;
     
 }
 
-img .circlepic .jumpingpic {
-    max-width: 600px;
-    max-height: 500px;
+.circlepic {
+    margin-top: 20px;
+    height: 450px;
+    margin-bottom: 20px;
+    
+}
 
+.jumpingpic {
+    margin-top: 20px;
+    height: 450px;
+    margin-bottom: 20px;
+}
+
+.circlediv {
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.jumpingdiv {
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 20px;
+    padding: 20px;
 }
